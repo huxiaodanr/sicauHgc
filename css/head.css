@@ -1,0 +1,203 @@
+header{
+    width:100%;
+    /*height:180px;*/
+    background-image: url('../img/3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 999;
+    position: relative;
+}
+.navbar{
+    margin-bottom:0;
+}
+/*.navbar-nav>li>a {*/
+/*padding-top: 0;*/
+/*padding-bottom: 0;*/
+/*}*/
+.logo{
+    width:100%;
+    height:130px;
+    border-bottom: 1px solid #fff;
+}
+.shadow{
+    width: 100%;
+    /*height:100%;*/
+    z-index:-998;
+}
+.logo span{
+    height:100%;
+    display: inline;
+    vertical-align: middle;
+    /*float: left;*/
+    border-bottom:1px solid #fff;
+}
+.logo img{
+    width:50%;
+    margin:35px auto;
+}
+.logo .sicaulogo{
+    float: left;
+    width:6%;
+}
+.logo .logotext{
+    float: left;
+}
+.navbar-header{
+    width: 100%;
+}
+
+#navigation{
+
+    background-color: transparent !important;
+}
+.navbar-nav .dropdown-menu{
+    background-color: rgba(0,0,0,.85);
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,0.125);
+    -moz-box-shadow: 0 3px 8px rgba(0,0,0,0.125);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.125);
+    border: 0;
+    padding: 0;
+    margin-top: 0;
+    border-top: 0;
+    border-radius: 0;
+    left: 0;
+}
+.nav-ul{
+    width: 80%;
+    margin-left:10%;
+}
+
+.dropdown-menu{
+    padding-top: 10px;
+}
+
+.logo .phone{
+    float: right;
+    vertical-align: middle;
+    width:20%;
+    margin-top: 50px;
+    margin-right:8%;
+}
+#search-form{
+    display: inline-block;
+    margin-top: 90px;
+    float: right;
+    margin-right: -25%;
+    overflow: hidden;
+}
+.search{
+    display: inline-block;
+}
+.search-button{
+    border: none;
+    font-size:2em;
+    cursor: pointer;
+}
+.search-button:active,.search-button:focus,.search-button:hover{
+    border:none;
+    box-shadow: none;
+    color: #fff;
+}
+.input-text{
+    border:none;
+
+}
+
+.input-text.active,.input-text:focus{
+    /*border:1px solid #fff;*/
+    box-shadow: none;
+}
+.sm-search{
+    display: none;
+}
+.sm-search-btn{
+    display: inline-block;
+    float: left;
+}
+.sm-search-input{
+    width: 180px;
+    display: inline-block;
+    float: left;
+    margin-top:5px;
+}
+.nav-ul .navitem{
+    width:12.5%;
+    /*float: left;*/
+}
+.nav-ul li a{
+    display: block;
+    width:100%;
+    text-align: center;
+    transition: color .3s, backgroud-color .3s;
+}
+.shadow{
+    background-color:#444;
+    opacity:0.9;
+}
+.nav-ul li a:hover{
+    color: #444;
+    background-color: #fff;
+}
+.navbar-nav .dropdown-menu{
+    border:1px solid #444;
+    background-color:  #444;
+}
+h3{
+    color: #444;
+    border-bottom:2px solid #444;
+}
+.nav-tabs{
+    color: #444;
+    border-bottom: 2px solid #444;
+}
+.newslist li a:hover{
+    color:#444;
+}
+.worknews .nav-tabs li a{
+    color: #444;
+}
+.some-file .nav-tabs li a{
+    color: #444;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #444;
+    border: 1px solid #444;
+    border-bottom-color: transparent;
+}
+.search-button{
+    background-color: transparent;
+    color: #fff;
+}
+.input-text{
+    background-color: transparent;
+    color: #fff;
+
+}
+.input-text::-webkit-input-placeholder{
+    color: #fff;
+    opacity:1;
+}
+.input-text::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity:1;
+}
+.input-text::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    opacity:1;
+}
+.input-text:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+    opacity:1;
+}
+.nav-ul li a{
+    color: #fff;
+    background-color: #444;
+}
+
+.copyright{
+    padding-top:20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
